@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+   <title>Document</title>
+</head>
+<body>
+   <div class="wrapper">
+			<!--Контент -->
+			<header class="header lock-padding">
+				<div class="container">
+
+				</div>
+			</header><!--<div class="block one">
+   <div class="block__item">
+      <div class="block__title">Заголовок №1</div>
+      <div class="block__text">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi, quos dignissimos mollitia ad in, 
+         non eius quas totam hic enim, commodi fugiat quod sit tempora, dolorum suscipit. Corrupti, quos.
+      </div>
+   </div>
+   <div class="block__item">
+      <div class="block__title">Заголовок №2</div>
+      <div class="block__text">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi, quos dignissimos mollitia ad in, 
+         non eius quas totam hic enim, commodi fugiat quod sit tempora, dolorum suscipit. Corrupti, quos.
+      </div>
+   </div>
+   <div class="block__item">
+      <div class="block__title">Заголовок №3</div>
+      <div class="block__text">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi, quos dignissimos mollitia ad in, 
+         non eius quas totam hic enim, commodi fugiat quod sit tempora, dolorum suscipit. Corrupti, quos.
+      </div>
+   </div>
+</div>--><!--<nav class="menu">
+   <ul class="menu__list">
+      <li>
+         <a href="" class="menu__link">Первый уровень</a>
+         <span class="menu__arrow arrow"></span>
+         <ul class="sub-menu__list">
+            <li>
+               <a href="" class="sub-menu__link">Второй уровень</a>
+            </li>
+            <li>
+               <a href="" class="sub-menu__link">Второй уровень</a>
+               <span class="sub-menu__arrow arrow"></span>
+               <ul class="sub-sub-menu__list">
+                  <li>
+                     <a href="" class="sub-sub-menu__link">Третий уровень</a>
+                  </li>
+                  <li>
+                     <a href="" class="sub-sub-menu__link">Третий уровень</a>
+                  </li>
+                  <li>
+                     <a href="" class="sub-sub-menu__link">Третий уровень</a>
+                  </li>
+                  <li>
+                     <a href="" class="sub-sub-menu__link">Третий уровень</a>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <a href="" class="sub-menu__link">Второй уровень</a>
+            </li>
+            <li>
+               <a href="" class="sub-menu__link">Второй уровень</a>
+            </li>
+         </ul>
+      </li>
+      <li>
+         <a href="" class="menu__link">Первый уровень</a>
+      </li>
+      <li>
+         <a href="" class="menu__link">Первый уровень</a>
+         <span class="menu__arrow arrow"></span>
+         <ul class="sub-menu__list">
+            <li>
+               <a href="" class="sub-menu__link">Второй уровень</a>
+            </li>
+            <li>
+               <a href="" class="sub-menu__link">Второй уровень</a>
+               <span class="sub-menu__arrow arrow"></span>
+               <ul class="sub-sub-menu__list">
+                  <li>
+                     <a href="" class="sub-sub-menu__link">Третий уровень</a>
+                  </li>
+                  <li>
+                     <a href="" class="sub-sub-menu__link">Третий уровень</a>
+                  </li>
+                  <li>
+                     <a href="" class="sub-sub-menu__link">Третий уровень</a>
+                  </li>
+                  <li>
+                     <a href="" class="sub-sub-menu__link">Третий уровень</a>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <a href="" class="sub-menu__link">Второй уровень</a>
+            </li>
+            <li>
+               <a href="" class="sub-menu__link">Второй уровень</a>
+            </li>
+         </ul>
+      </li>
+   </ul>
+</nav>--><!-- Главный контейнер -->
+<div class="swiper">
+   <!-- Оболочка слайдера-->
+   <div class="swiper-wrapper">
+<!-- Слайды -->
+      <div class="swiper-slide"></div>
+   </div>
+   <!-- Пагинация-->
+
+   <!--<div class="swiper-pagination"></div>-->
+
+   <!-- Стрелки -->
+
+   <!--<div class="swiper-button-prev"></div>-->
+   <!--<div class="swiper-button-next"></div>-->
+
+   <!-- Скроллбар -->
+
+   <!--<div class="swiper-scrollbar"></div>-->
+
+</div>
+      <div class="form">
+         <form action="#" id="form" class="form__body">
+            <h1 class="form__title">Отправка данных на почту</h1>
+            <div class="form__item">
+               <label for="formName" class="form__label">Имя*:</label>
+               <input id="formName" name="name" class="form__input _req" type="text">
+            </div>
+            <div class="form__item">
+               <label for="formEmail" class="form__label">E-mail*:</label>
+               <input id="formEmail" name="Email" class="form__input _req _email" type="text">
+            </div>
+            <div class="form__item">
+               <div class="form__label">Левша или правша</div>
+               <div class="options">
+                  <div class="options__item">
+                     <input id="formRightHanded" checked value="right" type="radio" name="hand" class="options__input">
+                     <label for="formRightHanded" class="options__label"><span>Правша</span></label>
+                  </div>
+                  <div class="options__item">
+                     <input id="formLeftHanded" value="left" type="radio" name="hand" class="options__input">
+                     <label for="formLeftHanded" class="options__label"><span>Левша</span></label>
+                  </div>
+               </div>
+            </div>
+            <div class="form__item">
+               <label for="formMessage" class="form__label">Сообщение</label>
+               <textarea name="Message" id="formMessage" class="form__input"></textarea>
+            </div>
+            <div class="form__item">
+               <div class="form__label">Возраст:</div>
+               <select class="select" name="language">
+                  <option disabled>Выбрать</option>
+                  <option value="от 18 до 25">молод</option>
+                  <option value="от 25 до 45">стар</option>
+                  <option value="от 45">суперстар</option>
+               </select>
+            </div>
+            <div class="form__item">
+               <div class="form__label">Прикрепить фото</div>
+               <div class="file">
+                  <div class="file__item">
+                     <input id="formImage" accept=".jpg, .png, .webp" type="file" name="image" class="file__input">
+                     <div class="file__button">Выбрать</div>
+                  </div>
+                  <div id="formPreview" class="file__preview"></div>
+               </div>
+            </div>
+            <div class="form__item">
+               <div class="checkbox">
+                  <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+                  <label for="formAgreement" class="checkbox__label"><span>Я даю свое согласие на обработку персональных данных в соответствии с <a href="#">Условиями</a>*</span></label>
+               </div>
+            </div>
+            <button type="submit" class="form__button">Отправить</button>
+         </form>
+      </div>
+
+<footer>
+   
+</footer>   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
