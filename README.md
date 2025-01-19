@@ -11,7 +11,7 @@
 <h3>HTML-разметка:</h3>
 <ul style="list-style-type: disc; padding-left: 20px;">
   <li>Структура формы: Корректное использование тега <form>, атрибутов action (путь к PHP-обработчику) и method (post или get), а также enctype="multipart/form-data" при загрузке файлов.</li>
-  <li>Элементы формы: Использование соответствующих тегов для текстовых полей (<input type="text">, <textarea>), email (<input type="email">), пароля (<input type="password">), выбора даты (<input type="date">), чекбоксов (<input type="checkbox">), радио (<input type="radio">), выпадающих списков (<select>), выбора файлов (<input type="file">) и кнопки отправки (<button type="submit">).</li>
+  <li>Элементы формы: Использование соответствующих тегов для текстовых полей.</li>
   <li>Лейблы: Использование тегов <label> для связи между текстом и полями формы, атрибут for для связи.</li>
   <li>Подсказки: Использование атрибутов placeholder и title для предоставления подсказок и дополнительной информации пользователю.</li>
 </ul>
